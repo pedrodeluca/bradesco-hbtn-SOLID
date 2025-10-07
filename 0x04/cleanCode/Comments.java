@@ -10,9 +10,10 @@ public class Comments {
         return;
     }
 
-       /**
+     /**
      * <p> este método publica resultados com base na data
      * </p>
+     * @desde 16.0
      */
     public List<Result> publishResults(Date date) {
     }
