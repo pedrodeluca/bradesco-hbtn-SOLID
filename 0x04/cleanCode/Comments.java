@@ -4,7 +4,6 @@ public class Comments {
 
     public Hours getHoursInQuarter(){}; 
 
-    // TODO Este método deve ser removido
     public void check(){
         return;
     }
