@@ -2,7 +2,7 @@ class UsersModels {
 
     private int IdUser; 
     private String Descricao;
-    public static final int IDADEMINIMA = 18;
+    public static final int IDADE_MINIMA = 18;
        
     public int getIdUser() {
         return idUser;
@@ -22,8 +22,5 @@ class UsersModels {
     
     public fetchUsers() { return [];}
     
-    public allUsers() {return [];}
-    
-    public getUsers() {return [];}
-    
+    public allUsers() {return [];}    
 }
