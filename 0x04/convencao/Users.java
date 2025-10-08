@@ -4,6 +4,8 @@ public class Users {
     private String Descricao;
     public static final int IDADE_MINIMA = 18;
        
+    public Users(){};
+    
     public int getIdUser() {
         return idUser;
     }
