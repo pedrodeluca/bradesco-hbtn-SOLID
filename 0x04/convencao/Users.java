@@ -1,4 +1,4 @@
-public class UsersModels {
+public class Users {
 
     private int IdUser; 
     private String Descricao;
