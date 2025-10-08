@@ -22,5 +22,8 @@ class UsersModels {
     
     public fetchUsers() { return [];}
     
-    public allUsers() {return [];}    
+    public allUsers() {return [];}
+    
+    public static getUsers() {return [];}
+    
 }
