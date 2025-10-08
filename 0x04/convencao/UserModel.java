@@ -1,4 +1,4 @@
-public class UsersModel {
+public class UserModel {
 
     private int IdUser; 
     private String Descricao;
