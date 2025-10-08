@@ -1,10 +1,15 @@
-public class Users {
+public class UsersModel {
 
     private int IdUser; 
     private String Descricao;
     public static final int IDADE_MINIMA = 18;
        
-    public Users(){};
+    public UsersModel(){};
+
+    public UsersModel(int idUser, String descricao) {
+        this.idUser = idUser;
+        this.descricao = descricao;
+    }
     
     public int getIdUser() {
         return idUser;
